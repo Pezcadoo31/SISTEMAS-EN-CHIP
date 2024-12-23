@@ -1,0 +1,11 @@
+Fitter Status : Successful - Mon Apr 15 10:22:58 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : ALU_BIT_SLICE
+Top-level Entity Name : ALU_BIT_SLICE
+Family : MAX II
+Device : EPM240T100C3
+Timing Models : Final
+Total logic elements : 10 / 240 ( 4 % )
+Total pins : 13 / 80 ( 16 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

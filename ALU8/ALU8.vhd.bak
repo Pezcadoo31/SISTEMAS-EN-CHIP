@@ -1,0 +1,6 @@
+-- Contruccion de ALU apartir de celulas bit slice
+
+Library IEEE;
+Use IEEE.std_logic_1164.all;
+
+Entity ALU8 is 

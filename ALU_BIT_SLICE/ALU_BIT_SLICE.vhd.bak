@@ -1,0 +1,8 @@
+-- ALU BIT SLICE 
+
+Library IEEE;
+Use IEEE.std_logic_1164.all;
+
+Entity ALU_BIT_SLICE is
+port (	);
+end ALU_BIT_SLICE;

@@ -1,0 +1,35 @@
+-- -- SUMADOR DE 8 BITS --
+-- ABDIEL VICENCIO ANTONIO --
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+-- Definicion de la entidad 
+entity S8_RCA is 
+	port ( a, b : in std_logic_vector (7 downto 0); 
+			Cin : in std_logic;
+			s : out std_logic_vector (7 downto 0);  
+			Cout : out std_logic);
+	end S8_RCA;
+	
+architecture arc of S8_RCA is
+
+component fa is
+	port ( a, b, Cin : in std_logic;
+			s, Cout : out std_logic);
+	end component fa;
+	
+Signal C : std_logic_vector (7 downto 1);
+
+begin 
+	
+	I0 : fa port map (a(0), b(0), Cin, s(0), C(1));
+	I1 : fa port map (a(1), b(1), C(1), s(1), C(2));
+	I2 : fa port map (a(2), b(2), C(2), s(2), C(3));
+	I3 : fa port map (a(3), b(1), C(3), s(3), C(4));
+	I4 : fa port map (a(4), b(2), C(4), s(4), C(5));
+	I5 : fa port map (a(5), b(1), C(5), s(5), C(6));
+	I6 : fa port map (a(6), b(2), C(6), s(6), C(7));
+	I7 : fa port map (a(7), b(7), C(7), s(7), Cout);
+	
+end arc;

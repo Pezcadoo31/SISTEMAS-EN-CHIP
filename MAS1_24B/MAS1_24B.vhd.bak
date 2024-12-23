@@ -1,0 +1,8 @@
+
+Library IEEE;
+Use IEEE.std_logic_1164.all;
+
+Entity MAS1_24B is 
+	port (	A : IN std_logic_vector (4 downto 0);
+				Z : out std_logic_vector(4 downto 0));
+end MAS1_24B;

@@ -1,0 +1,7 @@
+-- Productos Parciales 
+
+Library IEEE;
+Use IEEE,std_logic_1164.all;
+
+Entity Productos_Parciales is
+	port ();

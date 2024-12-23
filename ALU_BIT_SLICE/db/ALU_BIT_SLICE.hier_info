@@ -1,0 +1,37 @@
+|ALU_BIT_SLICE
+A => cable[0].IN0
+B => cable[1].IN0
+NA => cable[0].IN1
+NA => cable.IN0
+NB => cable[1].IN1
+NB => cable.IN1
+Cin => cable[2].IN1
+AandB => cable[12].IN1
+notB => cable[9].IN1
+notA => cable[10].IN1
+AxorB => cable[11].IN1
+AorB => cable[15].IN1
+AmasB => cable.IN1
+AmasB => cable[13].IN1
+Cout <= cable.DB_MAX_OUTPUT_PORT_TYPE
+S <= cable.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU_BIT_SLICE|ha:H0
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU_BIT_SLICE|ha:H1
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,11 @@
+-- ABDIEL VICENCIO ANTONIO A01750922
+-- MANCHESTER CARRY CHAIN SUMA 8
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity MCC_S8 is
+	port ( A, B, Ci : in std_logic;
+			S, Cout : out std_logic);
+end MCC_S8;
+

@@ -1,0 +1,581 @@
+Timing Analyzer report for Productos_Parciales
+Fri Apr 12 12:51:19 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Fmax Summary
+  6. Setup Summary
+  7. Hold Summary
+  8. Recovery Summary
+  9. Removal Summary
+ 10. Minimum Pulse Width Summary
+ 11. Clock Transfers
+ 12. Report TCCS
+ 13. Report RSKM
+ 14. Unconstrained Paths Summary
+ 15. Unconstrained Input Ports
+ 16. Unconstrained Output Ports
+ 17. Unconstrained Input Ports
+ 18. Unconstrained Output Ports
+ 19. Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------+
+; Timing Analyzer Summary                                                     ;
++-----------------------+-----------------------------------------------------+
+; Quartus Prime Version ; Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Timing Analyzer       ; Legacy Timing Analyzer                              ;
+; Revision Name         ; Productos_Parciales                                 ;
+; Device Family         ; MAX II                                              ;
+; Device Name           ; EPM2210F324C3                                       ;
+; Timing Models         ; Final                                               ;
+; Delay Model           ; Slow Model                                          ;
+; Rise/Fall Delays      ; Unavailable                                         ;
++-----------------------+-----------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 12          ;
+; Maximum allowed            ; 6           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+----------------
+; Fmax Summary ;
+----------------
+No paths to report.
+
+
+-----------------
+; Setup Summary ;
+-----------------
+No paths to report.
+
+
+----------------
+; Hold Summary ;
+----------------
+No paths to report.
+
+
+--------------------
+; Recovery Summary ;
+--------------------
+No paths to report.
+
+
+-------------------
+; Removal Summary ;
+-------------------
+No paths to report.
+
+
+-------------------------------
+; Minimum Pulse Width Summary ;
+-------------------------------
+No paths to report.
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No non-DPA dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths Summary                    ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 66    ; 66   ;
+; Unconstrained Input Port Paths  ; 786   ; 786  ;
+; Unconstrained Output Ports      ; 114   ; 114  ;
+; Unconstrained Output Port Paths ; 786   ; 786  ;
++---------------------------------+-------+------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Unconstrained Input Ports                                                                         ;
++------------+--------------------------------------------------------------------------------------+
+; Input Port ; Comment                                                                              ;
++------------+--------------------------------------------------------------------------------------+
+; A[0]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[1]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[2]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[3]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[4]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[5]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[6]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[7]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[8]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[9]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[10]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[11]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[12]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[13]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[14]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[15]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[16]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[17]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[18]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[19]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[20]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[21]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[22]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[23]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[0]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[1]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[2]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[3]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[4]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[5]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[6]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[7]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[8]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[9]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[10]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[11]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[12]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[13]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[14]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[15]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[16]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[17]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[18]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[19]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[20]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[21]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[22]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[23]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB1[0]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB1[1]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB1[2]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB2[0]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB2[1]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB2[2]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB3[0]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB3[1]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB3[2]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB4[0]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB4[1]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB4[2]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB5[0]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB5[1]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB5[2]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB6[0]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB6[1]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB6[2]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------+--------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                          ;
++-------------+---------------------------------------------------------------------------------------+
+; Output Port ; Comment                                                                               ;
++-------------+---------------------------------------------------------------------------------------+
+; PP1[0]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[1]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[2]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[3]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[4]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[5]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[6]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[7]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[8]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[9]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[10]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[11]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[12]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[13]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[14]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[15]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[16]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[17]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[18]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[19]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[20]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[21]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[22]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[23]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[2]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[3]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[4]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[5]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[6]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[7]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[8]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[9]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[10]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[11]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[12]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[13]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[14]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[15]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[16]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[17]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[18]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[19]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[20]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[21]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[22]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[23]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[4]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[5]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[6]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[7]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[8]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[9]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[10]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[11]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[12]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[13]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[14]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[15]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[16]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[17]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[18]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[19]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[20]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[21]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[22]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[23]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[6]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[7]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[8]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[9]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[10]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[11]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[12]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[13]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[14]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[15]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[16]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[17]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[18]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[19]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[20]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[21]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[22]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[23]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[8]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[9]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[10]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[11]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[12]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[13]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[14]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[15]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[16]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[17]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[18]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[19]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[20]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[21]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[22]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[23]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[10]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[11]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[12]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[13]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[14]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[15]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[16]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[17]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[18]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[19]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[20]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[21]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[22]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[23]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++-------------+---------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Unconstrained Input Ports                                                                         ;
++------------+--------------------------------------------------------------------------------------+
+; Input Port ; Comment                                                                              ;
++------------+--------------------------------------------------------------------------------------+
+; A[0]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[1]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[2]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[3]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[4]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[5]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[6]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[7]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[8]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[9]       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[10]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[11]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[12]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[13]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[14]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[15]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[16]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[17]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[18]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[19]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[20]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[21]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[22]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; A[23]      ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[0]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[1]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[2]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[3]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[4]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[5]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[6]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[7]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[8]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[9]   ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[10]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[11]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[12]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[13]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[14]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[15]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[16]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[17]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[18]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[19]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[20]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[21]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[22]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; Acomp[23]  ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB1[0]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB1[1]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB1[2]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB2[0]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB2[1]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB2[2]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB3[0]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB3[1]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB3[2]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB4[0]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB4[1]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB4[2]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB5[0]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB5[1]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB5[2]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB6[0]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB6[1]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; CB6[2]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------+--------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                          ;
++-------------+---------------------------------------------------------------------------------------+
+; Output Port ; Comment                                                                               ;
++-------------+---------------------------------------------------------------------------------------+
+; PP1[0]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[1]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[2]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[3]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[4]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[5]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[6]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[7]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[8]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[9]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[10]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[11]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[12]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[13]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[14]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[15]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[16]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[17]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[18]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[19]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[20]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[21]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[22]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP1[23]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[2]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[3]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[4]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[5]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[6]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[7]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[8]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[9]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[10]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[11]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[12]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[13]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[14]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[15]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[16]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[17]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[18]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[19]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[20]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[21]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[22]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP2[23]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[4]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[5]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[6]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[7]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[8]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[9]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[10]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[11]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[12]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[13]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[14]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[15]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[16]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[17]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[18]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[19]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[20]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[21]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[22]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP3[23]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[6]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[7]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[8]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[9]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[10]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[11]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[12]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[13]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[14]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[15]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[16]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[17]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[18]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[19]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[20]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[21]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[22]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP4[23]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[8]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[9]      ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[10]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[11]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[12]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[13]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[14]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[15]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[16]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[17]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[18]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[19]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[20]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[21]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[22]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP5[23]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[10]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[11]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[12]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[13]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[14]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[15]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[16]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[17]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[18]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[19]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[20]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[21]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[22]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; PP6[23]     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++-------------+---------------------------------------------------------------------------------------+
+
+
++--------------------------+
+; Timing Analyzer Messages ;
++--------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Timing Analyzer
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Fri Apr 12 12:51:17 2024
+Info: Command: quartus_sta Productos_Parciales -c Productos_Parciales
+Info: qsta_default_script.tcl version: #1
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'Productos_Parciales.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info (332140): No fmax paths to report
+Info: Can't run Report Timing Closure Recommendations. The current device family is not supported.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus Prime Timing Analyzer was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4678 megabytes
+    Info: Processing ended: Fri Apr 12 12:51:19 2024
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+

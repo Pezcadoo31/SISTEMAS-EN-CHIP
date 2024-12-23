@@ -1,0 +1,389 @@
+|ALU8
+A[0] => ALU_BIT_SLICE:UAL0.A
+A[1] => ALU_BIT_SLICE:UAL1.A
+A[2] => ALU_BIT_SLICE:UAL2.A
+A[3] => ALU_BIT_SLICE:UAL3.A
+A[4] => ALU_BIT_SLICE:UAL4.A
+A[5] => ALU_BIT_SLICE:UAL5.A
+A[6] => ALU_BIT_SLICE:UAL6.A
+A[7] => ALU_BIT_SLICE:UAL7.A
+B[0] => ALU_BIT_SLICE:UAL0.B
+B[1] => ALU_BIT_SLICE:UAL1.B
+B[2] => ALU_BIT_SLICE:UAL2.B
+B[3] => ALU_BIT_SLICE:UAL3.B
+B[4] => ALU_BIT_SLICE:UAL4.B
+B[5] => ALU_BIT_SLICE:UAL5.B
+B[6] => ALU_BIT_SLICE:UAL6.B
+B[7] => ALU_BIT_SLICE:UAL7.B
+Cin => ALU_BIT_SLICE:UAL0.Cin
+Control[0] => ALU_BIT_SLICE:UAL0.AmasB
+Control[0] => ALU_BIT_SLICE:UAL1.AmasB
+Control[0] => ALU_BIT_SLICE:UAL2.AmasB
+Control[0] => ALU_BIT_SLICE:UAL3.AmasB
+Control[0] => ALU_BIT_SLICE:UAL4.AmasB
+Control[0] => ALU_BIT_SLICE:UAL5.AmasB
+Control[0] => ALU_BIT_SLICE:UAL6.AmasB
+Control[0] => ALU_BIT_SLICE:UAL7.AmasB
+Control[1] => ALU_BIT_SLICE:UAL0.AorB
+Control[1] => ALU_BIT_SLICE:UAL1.AorB
+Control[1] => ALU_BIT_SLICE:UAL2.AorB
+Control[1] => ALU_BIT_SLICE:UAL3.AorB
+Control[1] => ALU_BIT_SLICE:UAL4.AorB
+Control[1] => ALU_BIT_SLICE:UAL5.AorB
+Control[1] => ALU_BIT_SLICE:UAL6.AorB
+Control[1] => ALU_BIT_SLICE:UAL7.AorB
+Control[2] => ALU_BIT_SLICE:UAL0.AxorB
+Control[2] => ALU_BIT_SLICE:UAL1.AxorB
+Control[2] => ALU_BIT_SLICE:UAL2.AxorB
+Control[2] => ALU_BIT_SLICE:UAL3.AxorB
+Control[2] => ALU_BIT_SLICE:UAL4.AxorB
+Control[2] => ALU_BIT_SLICE:UAL5.AxorB
+Control[2] => ALU_BIT_SLICE:UAL6.AxorB
+Control[2] => ALU_BIT_SLICE:UAL7.AxorB
+Control[3] => ALU_BIT_SLICE:UAL0.notA
+Control[3] => ALU_BIT_SLICE:UAL1.notA
+Control[3] => ALU_BIT_SLICE:UAL2.notA
+Control[3] => ALU_BIT_SLICE:UAL3.notA
+Control[3] => ALU_BIT_SLICE:UAL4.notA
+Control[3] => ALU_BIT_SLICE:UAL5.notA
+Control[3] => ALU_BIT_SLICE:UAL6.notA
+Control[3] => ALU_BIT_SLICE:UAL7.notA
+Control[4] => ALU_BIT_SLICE:UAL0.notB
+Control[4] => ALU_BIT_SLICE:UAL1.notB
+Control[4] => ALU_BIT_SLICE:UAL2.notB
+Control[4] => ALU_BIT_SLICE:UAL3.notB
+Control[4] => ALU_BIT_SLICE:UAL4.notB
+Control[4] => ALU_BIT_SLICE:UAL5.notB
+Control[4] => ALU_BIT_SLICE:UAL6.notB
+Control[4] => ALU_BIT_SLICE:UAL7.notB
+Control[5] => ALU_BIT_SLICE:UAL0.AandB
+Control[5] => ALU_BIT_SLICE:UAL1.AandB
+Control[5] => ALU_BIT_SLICE:UAL2.AandB
+Control[5] => ALU_BIT_SLICE:UAL3.AandB
+Control[5] => ALU_BIT_SLICE:UAL4.AandB
+Control[5] => ALU_BIT_SLICE:UAL5.AandB
+Control[5] => ALU_BIT_SLICE:UAL6.AandB
+Control[5] => ALU_BIT_SLICE:UAL7.AandB
+Control[6] => ALU_BIT_SLICE:UAL0.NB
+Control[6] => ALU_BIT_SLICE:UAL1.NB
+Control[6] => ALU_BIT_SLICE:UAL2.NB
+Control[6] => ALU_BIT_SLICE:UAL3.NB
+Control[6] => ALU_BIT_SLICE:UAL4.NB
+Control[6] => ALU_BIT_SLICE:UAL5.NB
+Control[6] => ALU_BIT_SLICE:UAL6.NB
+Control[6] => ALU_BIT_SLICE:UAL7.NB
+Control[7] => ALU_BIT_SLICE:UAL0.NA
+Control[7] => ALU_BIT_SLICE:UAL1.NA
+Control[7] => ALU_BIT_SLICE:UAL2.NA
+Control[7] => ALU_BIT_SLICE:UAL3.NA
+Control[7] => ALU_BIT_SLICE:UAL4.NA
+Control[7] => ALU_BIT_SLICE:UAL5.NA
+Control[7] => ALU_BIT_SLICE:UAL6.NA
+Control[7] => ALU_BIT_SLICE:UAL7.NA
+Cout << ALU_BIT_SLICE:UAL7.Cout
+S[0] << ALU_BIT_SLICE:UAL0.S
+S[1] << ALU_BIT_SLICE:UAL1.S
+S[2] << ALU_BIT_SLICE:UAL2.S
+S[3] << ALU_BIT_SLICE:UAL3.S
+S[4] << ALU_BIT_SLICE:UAL4.S
+S[5] << ALU_BIT_SLICE:UAL5.S
+S[6] << ALU_BIT_SLICE:UAL6.S
+S[7] << ALU_BIT_SLICE:UAL7.S
+
+
+|ALU8|ALU_BIT_SLICE:UAL0
+A => cable[0].IN0
+B => cable[1].IN0
+NA => cable[0].IN1
+NA => cable.IN0
+NB => cable[1].IN1
+NB => cable.IN1
+Cin => cable[2].IN1
+AandB => cable[12].IN1
+notB => cable[9].IN1
+notA => cable[10].IN1
+AxorB => cable[11].IN1
+AorB => cable[15].IN1
+AmasB => cable.IN1
+AmasB => cable[13].IN1
+Cout <= cable.DB_MAX_OUTPUT_PORT_TYPE
+S <= cable.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL0|ha:H0
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL0|ha:H1
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL1
+A => cable[0].IN0
+B => cable[1].IN0
+NA => cable[0].IN1
+NA => cable.IN0
+NB => cable[1].IN1
+NB => cable.IN1
+Cin => cable[2].IN1
+AandB => cable[12].IN1
+notB => cable[9].IN1
+notA => cable[10].IN1
+AxorB => cable[11].IN1
+AorB => cable[15].IN1
+AmasB => cable.IN1
+AmasB => cable[13].IN1
+Cout <= cable.DB_MAX_OUTPUT_PORT_TYPE
+S <= cable.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL1|ha:H0
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL1|ha:H1
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL2
+A => cable[0].IN0
+B => cable[1].IN0
+NA => cable[0].IN1
+NA => cable.IN0
+NB => cable[1].IN1
+NB => cable.IN1
+Cin => cable[2].IN1
+AandB => cable[12].IN1
+notB => cable[9].IN1
+notA => cable[10].IN1
+AxorB => cable[11].IN1
+AorB => cable[15].IN1
+AmasB => cable.IN1
+AmasB => cable[13].IN1
+Cout <= cable.DB_MAX_OUTPUT_PORT_TYPE
+S <= cable.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL2|ha:H0
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL2|ha:H1
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL3
+A => cable[0].IN0
+B => cable[1].IN0
+NA => cable[0].IN1
+NA => cable.IN0
+NB => cable[1].IN1
+NB => cable.IN1
+Cin => cable[2].IN1
+AandB => cable[12].IN1
+notB => cable[9].IN1
+notA => cable[10].IN1
+AxorB => cable[11].IN1
+AorB => cable[15].IN1
+AmasB => cable.IN1
+AmasB => cable[13].IN1
+Cout <= cable.DB_MAX_OUTPUT_PORT_TYPE
+S <= cable.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL3|ha:H0
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL3|ha:H1
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL4
+A => cable[0].IN0
+B => cable[1].IN0
+NA => cable[0].IN1
+NA => cable.IN0
+NB => cable[1].IN1
+NB => cable.IN1
+Cin => cable[2].IN1
+AandB => cable[12].IN1
+notB => cable[9].IN1
+notA => cable[10].IN1
+AxorB => cable[11].IN1
+AorB => cable[15].IN1
+AmasB => cable.IN1
+AmasB => cable[13].IN1
+Cout <= cable.DB_MAX_OUTPUT_PORT_TYPE
+S <= cable.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL4|ha:H0
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL4|ha:H1
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL5
+A => cable[0].IN0
+B => cable[1].IN0
+NA => cable[0].IN1
+NA => cable.IN0
+NB => cable[1].IN1
+NB => cable.IN1
+Cin => cable[2].IN1
+AandB => cable[12].IN1
+notB => cable[9].IN1
+notA => cable[10].IN1
+AxorB => cable[11].IN1
+AorB => cable[15].IN1
+AmasB => cable.IN1
+AmasB => cable[13].IN1
+Cout <= cable.DB_MAX_OUTPUT_PORT_TYPE
+S <= cable.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL5|ha:H0
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL5|ha:H1
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL6
+A => cable[0].IN0
+B => cable[1].IN0
+NA => cable[0].IN1
+NA => cable.IN0
+NB => cable[1].IN1
+NB => cable.IN1
+Cin => cable[2].IN1
+AandB => cable[12].IN1
+notB => cable[9].IN1
+notA => cable[10].IN1
+AxorB => cable[11].IN1
+AorB => cable[15].IN1
+AmasB => cable.IN1
+AmasB => cable[13].IN1
+Cout <= cable.DB_MAX_OUTPUT_PORT_TYPE
+S <= cable.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL6|ha:H0
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL6|ha:H1
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL7
+A => cable[0].IN0
+B => cable[1].IN0
+NA => cable[0].IN1
+NA => cable.IN0
+NB => cable[1].IN1
+NB => cable.IN1
+Cin => cable[2].IN1
+AandB => cable[12].IN1
+notB => cable[9].IN1
+notA => cable[10].IN1
+AxorB => cable[11].IN1
+AorB => cable[15].IN1
+AmasB => cable.IN1
+AmasB => cable[13].IN1
+Cout <= cable.DB_MAX_OUTPUT_PORT_TYPE
+S <= cable.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL7|ha:H0
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU8|ALU_BIT_SLICE:UAL7|ha:H1
+a => s.IN0
+a => Cout.IN0
+b => s.IN1
+b => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

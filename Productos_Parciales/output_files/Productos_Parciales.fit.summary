@@ -1,0 +1,11 @@
+Fitter Status : Successful - Fri Apr 12 12:51:14 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Productos_Parciales
+Top-level Entity Name : Productos_Parciales
+Family : MAX II
+Device : EPM2210F324C3
+Timing Models : Final
+Total logic elements : 456 / 2,210 ( 21 % )
+Total pins : 210 / 272 ( 77 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

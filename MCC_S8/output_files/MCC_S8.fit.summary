@@ -1,0 +1,11 @@
+Fitter Status : Successful - Thu Apr 04 11:46:14 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : MCC_S8
+Top-level Entity Name : MCC_S8
+Family : MAX II
+Device : EPM240T100C3
+Timing Models : Final
+Total logic elements : 24 / 240 ( 10 % )
+Total pins : 27 / 80 ( 34 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

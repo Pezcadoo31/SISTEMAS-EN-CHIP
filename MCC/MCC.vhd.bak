@@ -1,0 +1,18 @@
+-- ABDIEL VICENCIO ANTONIO A01750922
+-- MANCHESTER CARRY CHAIN
+
+Library IEEE;
+Use IEEE.std_logic_1164;
+
+Entity MCC is
+	port (A, B, Ci: in std_logic;
+			S, Ci_1 : out std_logic);
+end MCC;
+
+Architecture arc of MCC is
+
+begin 
+
+
+
+

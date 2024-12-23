@@ -1,0 +1,6 @@
+-- Multiplicador de Booth
+
+Library Ieee;
+Use IEEE.std_logic_1164.all;
+
+Entity Multiplicador_Booth 

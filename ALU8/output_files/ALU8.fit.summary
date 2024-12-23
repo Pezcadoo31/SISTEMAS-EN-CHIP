@@ -1,0 +1,11 @@
+Fitter Status : Successful - Fri Apr 19 17:32:19 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : ALU8
+Top-level Entity Name : ALU8
+Family : MAX II
+Device : EPM240T100C3
+Timing Models : Final
+Total logic elements : 74 / 240 ( 31 % )
+Total pins : 34 / 80 ( 43 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )
